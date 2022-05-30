@@ -1,0 +1,11 @@
+:host {
+  background: #d6c8b2;
+  padding: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: 85vh;
+  width: 10%;
+
+}
