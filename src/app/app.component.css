@@ -1,9 +1,11 @@
 :host {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 100%;
+  background: #ffffff;
+  
 }
 
 .content {
-  background: #ffffff;
+
+  display: flex;
+  justify-content: center;
 }
+

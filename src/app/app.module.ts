@@ -7,15 +7,20 @@ import { LayoutModule } from './layout/layout.module';
 import { AppRoutingModule } from './app-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+ 
 import { AccountSettingsModule } from './account-settings/account-settings.module';
 import { LoginModule } from './login/login.module';
 import { RegistrationModule } from './registration/registration.module';
 import { UsersModule } from './users/users.module';
 import { DashboardModule } from './dashboard/dashboard.module';
+import { AlunosModule } from './alunos/alunos.module';
+
 
 @NgModule({
   declarations: [
     AppComponent
+    
+    
   ],
   imports: [
     BrowserModule,
@@ -24,6 +29,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
     FlexLayoutModule,
     LayoutModule,
     DashboardModule,
+    AlunosModule,
     AccountSettingsModule,
     LoginModule,
     RegistrationModule,
